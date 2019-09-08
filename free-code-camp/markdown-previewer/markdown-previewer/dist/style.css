@@ -1,0 +1,147 @@
+* {
+  font-family: 'Raleway' , Arial, san-serif;
+}
+
+body {
+  background: #00e6e6;
+}
+
+.header {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.header2 {
+  text-align: center;
+  color: white;
+  font-weight: normal;
+  padding: 15px;
+  font-size: 40px;
+}
+
+.toolbar {
+  color: black;
+  background-color: #00b3b3;
+  font-size: 25px;
+  font-weight: bold;
+  position: static;
+  paddding: 5px;
+  border: 1px solid #273746;
+  box-shadow: 1px 1px 10px 2px #46a6a6;
+}
+.toolbar i {
+  width: 30px;
+  color: black;
+  margin-left: 3px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.left {
+  width: 95%;
+  height: 90vh;
+}
+
+.right {
+  with: 95;
+  height: 90vh;
+  border: 1px solid;
+  overflow: auto;
+}
+
+#editor {
+  width: 98.7%;
+  height: 100%;
+  outline: none;
+  padding: .25vw;
+}
+
+#preview {
+  padding: .30vw;
+}
+
+code {
+  background-color: white;
+  color: red;
+  width: 38%;
+}
+
+pre code {
+  display: inline-block;
+  background-color: white;
+  color: black;
+}
+
+/* Base16 Atelier Seaside Light - Theme */
+/* by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/seaside) */
+/* Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16) */
+/* Atelier-Seaside Comment */
+.hljs-comment,
+.hljs-quote {
+  color: #687d68;
+}
+
+/* Atelier-Seaside Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-attribute,
+.hljs-tag,
+.hljs-name,
+.hljs-regexp,
+.hljs-link,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class {
+  color: #e6193c;
+}
+
+/* Atelier-Seaside Orange */
+.hljs-number,
+.hljs-meta,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params {
+  color: #87711d;
+}
+
+/* Atelier-Seaside Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet {
+  color: #29a329;
+}
+
+/* Atelier-Seaside Blue */
+.hljs-title,
+.hljs-section {
+  color: #3d62f5;
+}
+
+/* Atelier-Seaside Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+  color: #ad2bee;
+}
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  background: #f4fbf4;
+  color: #5e6e5e;
+  padding: 0.5em;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}

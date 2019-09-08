@@ -1,0 +1,121 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  vertical-align: baseline;
+}
+
+
+div {
+  position: relative;
+  z-index: 2;
+}
+
+body {
+  background-image: url("https://wallpapersite.com/images/pages/pic_w/15039.jpg");
+  background-repeat: no-repeat fixed center;
+  background-size: 2600px 900px;
+  color: #3B2333;
+  font-family: 'Raleway', Serif font;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+.header{
+  width: 450px;
+  text-align: center;
+  display: block;
+  margin: 15px auto 30px auto;
+  font-size: 4em;
+  color: #fff;
+}
+.middle {
+  width: 450px;
+  text-align: center;
+  display: block;
+  margin: 15px auto 30px auto;
+  font-size: 1.5em;
+  font-style: italic;
+  color: #fff;
+}
+.footer {
+  width:450px;
+  text-align: center;
+  display: block;
+  margin: 15px auto 30px auto;
+  font-size: 1.5em;
+  color: #fff;
+  a {
+    font-weight: 400;
+    text-decoration: none;
+    color:#fff;
+  }
+}
+
+#quote-box {
+  border-radius: 6px;
+  position: relative;
+  width: 500px;
+  padding: 50px 50px;
+  display: table;
+  .quote-text{
+    i{
+      font-size: 1.1em;
+      margin-right: 0.3em;
+    }
+    text-alight: center;
+    width: 500px;
+    height: auto;
+    clear: both;
+    font-weight: 540;
+    font-size: 2em;
+    color: white;
+  }
+  .quote-author{
+    width: 500px;
+    height: auto;
+    clear: both;
+    padding-top: 20px;
+    font-size: 1.3em;
+    text-align:right;
+    color: white;
+  }
+  .buttons{
+    width: 500px;
+    margin: auto;
+    display: block;
+    .button{
+      height: 40px;
+      border: none;
+      border-radius: 5px;
+      color: #fff;
+      background-color:#7a7a7a;
+      outline: none;
+      font-size: 1em;
+      padding: 10px 15px 5px 15px;
+      margin-top: 40px;
+      opacity: 1;
+      cursor: pointer;
+      &:hover{
+        opcaity: 0.8;
+      }
+      &#tweet-quote {
+        float: right;
+        padding: 1px;
+        padding-top: 10px;
+        text-align: center;
+        font-size: 1.5em;
+        margin-right: 7px;
+        height: 30px;
+        width: 40px;
+      }
+      &#new-quote{
+        float:left;
+      }
+    }
+  }
+}
